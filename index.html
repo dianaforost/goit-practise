@@ -5,10 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome UI</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <a>
+        <div class="container header">
+          <a href="./index.html" class="header-logo"><span>Web</span>Studio</a>
+          <nav>
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./index.html" class="header-link">Студія</a>
+              </li>
+              <li class="header-item">
+                <a href="./portfolio.html" class="header-link special current"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="header-item">
+                <a href="#" class="header-link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="mailto:info@devstudio.com" class="header-contact special"
+                >
+                <svg class="header-icon">
+                    <use></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="tel:+380961111111" class="header-contact"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+    <!-- <header>
+        <a href="#">
             <img src="./images/Logo.svg" alt="Logo">
         </a>
         <nav>
@@ -28,7 +65,7 @@
             </ul>
         </nav>
         <button type="submit">Register</button>
-    </header>
+    </header> -->
     <main>
         <section class="hero">
             <div class="content">
@@ -46,7 +83,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae nullam aliquet dignissim quis. Vel, faucibus ac justo aliquam donec enim, commodo fermum vitae. Et velit sceleris, commodo fermentum vitae. Et velit sceleris</p>
                 <button type="button">Get started <img src="./images/Vector.svg" alt="Arrow"> </button>
             </div>
-            <div class="card_list">
+            <div class="benefits_card-list">
                 <div class="card">
                     <img src="./images/smart-car.svg" alt="car">
                     <h3>Car Rental</h3>
@@ -67,6 +104,38 @@
                     <h3>Road Trip</h3>
                     <p>Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae</p>
                 </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="features_content">
+                <h3></h3>
+                <h2></h2>
+                <div class="features_card-list">
+                    <div class="card">
+                        <img src="./images/python.svg" alt="ikon">
+                        <h3>MOT consectet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/iost-(iost).svg" alt="ikon">
+                        <h3>MOT consectet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/stacks-(stx).svg" alt="ikon">
+                        <h3>MOT consectet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <img src="./images/pexels-photo-3184338 1.jpg" alt="Work team">
+            <div class="about_content">
+                <h3>About us</h3>
+                <h2>Who we are</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae nullam aliquet dignissim quis. Vel, faucibus ac justo aliquam donec enim, commodo fermentum vitae. Et velit sceleris, commodo entum vitaefermentum vitae. Et velit sceleris nullam aliquet dignissim</p>
+                <button type="button">Get started <img src="./images/Vector.svg" alt="Arrow"></button>
             </div>
         </section>
     </main>
